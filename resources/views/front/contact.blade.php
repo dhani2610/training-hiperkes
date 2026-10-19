@@ -85,7 +85,7 @@
                                     <i class="bi bi-journal-check"></i>
                                 </div>
                                 <div style="flex-grow: 1;">
-                                    <div style="font-size: 0.72rem; color: #a7f3d0; text-transform: uppercase; font-weight: 700; letter-spacing: 0.3px;">Hotline 3 (Silabus & Teknis Full Body Harness & Lanyard)</div>
+                                    <div style="font-size: 0.72rem; color: #a7f3d0; text-transform: uppercase; font-weight: 700; letter-spacing: 0.3px;">Hotline 3 (Silabus & Teknis Higene Perusahaan & Ergonomi)</div>
                                     <div style="font-size: 1rem; font-weight: 800; color: #ffffff;">0878-9458-0806</div>
                                 </div>
                                 <i class="bi bi-chevron-right" style="color: #6ee7b7; font-size: 0.85rem;"></i>

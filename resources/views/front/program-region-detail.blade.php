@@ -168,7 +168,7 @@
                         <div style="display: flex; gap: 12px; margin-bottom: 20px; flex-wrap: wrap;">
                             <div style="flex: 1; min-width: 240px; position: relative;">
                                 <i class="bi bi-search" style="position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: #94a3b8;"></i>
-                                <input type="text" id="articleSearchInput" class="form-control" placeholder="Cari topik modul (misal: Hiperkes Perawat, Full Body Harness & Lanyard, LOTO, Rescue, Permit)..." style="padding: 11px 16px 11px 38px; border-radius: 8px; border: 1px solid #cbd5e1; font-size: 0.9rem; width: 100%;">
+                                <input type="text" id="articleSearchInput" class="form-control" placeholder="Cari topik modul (misal: Hiperkes Perawat, Higene Perusahaan & Ergonomi, LOTO, Rescue, Permit)..." style="padding: 11px 16px 11px 38px; border-radius: 8px; border: 1px solid #cbd5e1; font-size: 0.9rem; width: 100%;">
                             </div>
                             <div style="display: flex; align-items: center; gap: 8px;">
                                 <label style="font-size: 0.82rem; font-weight: 700; color: #475569; white-space: nowrap;">Tampilkan:</label>
@@ -296,7 +296,7 @@
                 <div style="text-align: center; padding: 48px 20px; background: #f8fafc; border-radius: 12px; border: 1px dashed #cbd5e1;">
                     <i class="bi bi-search" style="font-size: 2.2rem; color: #94a3b8; display: block; margin-bottom: 10px;"></i>
                     <h4 style="font-size: 1rem; font-weight: 700; color: #334155;">Tidak ada modul yang cocok dengan kata kunci</h4>
-                    <p style="font-size: 0.84rem; color: #64748b; margin-top: 4px;">Coba gunakan kata kunci lain seperti: Hiperkes Perawat, Full Body Harness & Lanyard, LOTO, Izin Masuk, atau Penyelamat.</p>
+                    <p style="font-size: 0.84rem; color: #64748b; margin-top: 4px;">Coba gunakan kata kunci lain seperti: Hiperkes Perawat, Higene Perusahaan & Ergonomi, LOTO, Izin Masuk, atau Penyelamat.</p>
                 </div>
             `;
             paginationNav.innerHTML = '';

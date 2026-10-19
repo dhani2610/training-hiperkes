@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
-@section('title', 'Training Hiperkes Perawat ' . $kecamatanData['name'] . ', ' . $kecamatanData['kabkot']['name'] . ' | Sertifikasi K3 Ketinggian')
-@section('meta_description', 'Layanan resmi pelatihan dan sertifikasi kompetensi K3 TKBT (Tenaga Kerja Bangunan Tinggi) di Kecamatan ' . $kecamatanData['name'] . ', ' . $kecamatanData['kabkot']['name'] . ', ' . $kecamatanData['province']['name'] . '. Hubungi WhatsApp 081399810272.')
+@section('title', 'Training Hiperkes Perawat ' . $kecamatanData['name'] . ', ' . $kecamatanData['kabkot']['name'] . ' | Sertifikasi Hiperkes Kemnaker RI')
+@section('meta_description', 'Layanan resmi pelatihan dan sertifikasi kompetensi K3 Hiperkes Perawat & Petugas Medis di Kecamatan ' . $kecamatanData['name'] . ', ' . $kecamatanData['kabkot']['name'] . ', ' . $kecamatanData['province']['name'] . '. Hubungi WhatsApp 081399810272.')
 
 @section('content')
 
@@ -26,7 +26,7 @@
                     <i class="bi bi-buildings"></i> {{ $kecamatanData['kabkot']['name'] }}
                 </span>
                 <span class="hero-badge" style="margin-bottom: 0; background: rgba(245, 158, 11, 0.2); border-color: #f59e0b; color: #fde68a;">
-                    <i class="bi bi-shield-check"></i> Permenaker No. 9 Tahun 2016
+                    <i class="bi bi-shield-check"></i> Permenaker No. 01/MEN/1979
                 </span>
             </div>
 
@@ -35,7 +35,7 @@
             </h1>
 
             <p class="hero-lead" style="margin-left: 0; max-width: 880px; margin-bottom: 22px;">
-                Penyelenggaraan pelatihan kompetensi K3 Tenaga Kerja Bangunan Tinggi (TKBT Tingkat 1 & Tingkat 2) di Kecamatan {{ $kecamatanData['name'] }}, {{ $kecamatanData['kabkot']['name'] }}, Provinsi {{ $kecamatanData['province']['name'] }}. Menguasai teknik 100% Tie-Off, inspeksi Full Body Harness EN 361, Lanyard EN 355, perancah, dan keselamatan tower.
+                Penyelenggaraan pelatihan kompetensi K3 Tenaga Kerja Bangunan Tinggi (Hiperkes Perawat & Paramedis) di Kecamatan {{ $kecamatanData['name'] }}, {{ $kecamatanData['kabkot']['name'] }}, Provinsi {{ $kecamatanData['province']['name'] }}. Menguasai standar Higene Perusahaan, Ergonomi Kerja, Toksikologi Industri, Pencegahan PAK, dan Pengelolaan Klinik Perusahaan.
             </p>
 
             <div class="hero-cta" style="justify-content: flex-start; margin-bottom: 0;">
@@ -56,7 +56,7 @@
         <div class="container">
             <div class="section-header">
                 <span class="section-tag">2 Program Resmi di {{ $kecamatanData['name'] }}</span>
-                <h2 class="section-title">Program Sertifikasi TKBT Kemnaker RI</h2>
+                <h2 class="section-title">Program Sertifikasi Hiperkes Kemnaker RI</h2>
                 <p class="section-desc">
                     Tersedia 2 program pelatihan resmi yang masing-masing memiliki 200 artikel materi dan silabus kurikulum di Kecamatan {{ $kecamatanData['name'] }}:
                 </p>
@@ -75,7 +75,7 @@
                         </div>
 
                         <div class="program-body">
-                            <div class="program-level">{{ $progObj->level_name ?? 'K3 Ketinggian' }}</div>
+                            <div class="program-level">{{ $progObj->level_name ?? 'Sertifikasi Hiperkes' }}</div>
                             <h3 class="program-title">{{ $progObj->title }}</h3>
                             <p class="program-desc">
                                 {{ Str::limit($progObj->short_description ?? ($progObj->full_description ?? ''), 130) }}
@@ -124,10 +124,10 @@
 
             <!-- 200 ARTIKEL PANDUAN KECAMATAN -->
             <div id="daftar-artikel" class="section-header" style="margin-top: 48px; text-align: left;">
-                <span class="section-tag">200 Artikel K3 TKBT</span>
-                <h2 class="section-title">Daftar 200 Artikel Panduan K3 TKBT di Kecamatan {{ $kecamatanData['name'] }}</h2>
+                <span class="section-tag">200 Artikel Hiperkes Perawat</span>
+                <h2 class="section-title">Daftar 200 Artikel Panduan Hiperkes Perawat di Kecamatan {{ $kecamatanData['name'] }}</h2>
                 <p class="section-desc" style="margin-left: 0;">
-                    Kumpulan 200 artikel mendalam (6000 - 9000 kata per topik) mencakup standar Permenaker No. 9 Tahun 2016, teknik proteksi jatuh, inspeksi APD, dan penyelamatan darurat di Kecamatan {{ $kecamatanData['name'] }}, {{ $kecamatanData['kabkot']['name'] }}:
+                    Kumpulan 200 artikel mendalam (6000 - 9000 kata per topik) mencakup standar Permenaker No. 01/MEN/1979, Higene Perusahaan, Ergonomi, Gizi Kerja, dan Pencegahan Penyakit Akibat Kerja di Kecamatan {{ $kecamatanData['name'] }}, {{ $kecamatanData['kabkot']['name'] }}:
                 </p>
             </div>
 
@@ -145,7 +145,7 @@
                             <a href="{{ $artUrl }}">{{ $artObj->title }}</a>
                         </h3>
                         <p class="article-excerpt">
-                            Panduan teknis dan standar operasional K3 Tenaga Kerja Bangunan Tinggi (TKBT) di Kecamatan {{ $kecamatanData['name'] }}. Mengulas regulasi, kalkulasi jarak jatuh, mitigasi trauma suspensi, dan sertifikasi Kemnaker RI.
+                            Panduan teknis dan standar operasional Hiperkes Perawat & Petugas Medis di Kecamatan {{ $kecamatanData['name'] }}. Mengulas regulasi kesehatan kerja, pencegahan PAK, ergonomi, dan sertifikasi resmi Kemnaker RI.
                         </p>
                         <div class="article-footer">
                             <span><i class="bi bi-clock me-1"></i> {{ $artObj->read_time ?? 35 }} Menit Baca (6000-9000 Kata)</span>
@@ -163,7 +163,7 @@
                     <i class="bi bi-map-fill text-success"></i> Peta Lokasi Wilayah Kecamatan {{ $kecamatanData['name'] }}, {{ $kecamatanData['kabkot']['name'] }}
                 </h3>
                 <p style="font-size: 0.86rem; color: #64748b; margin-bottom: 18px;">
-                    Kami melayani pelatihan K3 TKBT baik secara publik maupun in-house training langsung ke fasilitas perusahaan Anda di area Kecamatan {{ $kecamatanData['name'] }} dan sekitarnya.
+                    Kami melayani pelatihan Hiperkes Perawat baik secara publik maupun in-house training langsung ke fasilitas perusahaan Anda di area Kecamatan {{ $kecamatanData['name'] }} dan sekitarnya.
                 </p>
                 <div style="width: 100%; height: 350px; border-radius: 12px; overflow: hidden; border: 1px solid #cbd5e1;">
                     <iframe src="{{ $mapUrl }}" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

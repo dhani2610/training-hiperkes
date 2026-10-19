@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
 @section('title', 'Training Hiperkes Perawat ' . $kabkotName . ' | Sertifikasi Hiperkes Perawat & Paramedis')
-@section('meta_description', 'Layanan resmi pelatihan dan sertifikasi kompetensi Hiperkes Perawat & Paramedis (TKBT (Ketinggian)) di ' . $kabkotName . ', ' . $province['name'] . '. Hubungi WhatsApp 081399810272.')
+@section('meta_description', 'Layanan resmi pelatihan dan sertifikasi kompetensi Hiperkes Perawat & Paramedis (Hiperkes Kemnaker RI) di ' . $kabkotName . ', ' . $province['name'] . '. Hubungi WhatsApp 081399810272.')
 
 @section('content')
 
@@ -33,7 +33,7 @@
             </h1>
 
             <p class="hero-lead" style="margin-left: 0; max-width: 880px; margin-bottom: 22px;">
-                Penyelenggaraan pelatihan kompetensi Hiperkes Perawat & Paramedis di {{ $kabkotName }}, Provinsi {{ $province['name'] }}. Menguasai pengoperasian alat Full Body Harness EN 361, Lanyard EN 355, 100% Tie-Off, permit izin masuk, dan simulasi non-entry rescue.
+                Penyelenggaraan pelatihan kompetensi Hiperkes Perawat & Paramedis di {{ $kabkotName }}, Provinsi {{ $province['name'] }}. Menguasai pengoperasian alat Higene Perusahaan, Ergonomi Kerja, Toksikologi Industri, Pencegahan PAK, dan Akreditasi SKP PPNI.
             </p>
 
             <div class="hero-cta" style="justify-content: flex-start; margin-bottom: 0;">
@@ -54,7 +54,7 @@
         <div class="container">
             <div class="section-header">
                 <span class="section-tag">2 Program Resmi di {{ $kabkotName }}</span>
-                <h2 class="section-title">Pilih Jenjang Pelatihan TKBT (Ketinggian)</h2>
+                <h2 class="section-title">Pilih Jenjang Pelatihan Hiperkes Kemnaker RI</h2>
                 <p class="section-desc">
                     Tersedia 4 program pelatihan resmi yang masing-masing memiliki 200 artikel materi dan silabus kurikulum di {{ $kabkotName }}:
                 </p>
@@ -159,7 +159,7 @@
                 <div style="display: flex; gap: 12px; margin-bottom: 20px; flex-wrap: wrap;">
                     <div style="flex: 1; min-width: 240px; position: relative;">
                         <i class="bi bi-search" style="position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: #94a3b8;"></i>
-                        <input type="text" id="articleSearchInput" class="form-control" placeholder="Cari topik artikel di {{ $kabkotName }} (misal: Hiperkes Perawat, Full Body Harness & Lanyard, LOTO, Rescue, Permit)..." style="padding: 11px 16px 11px 38px; border-radius: 8px; border: 1px solid #cbd5e1; font-size: 0.9rem; width: 100%;">
+                        <input type="text" id="articleSearchInput" class="form-control" placeholder="Cari topik artikel di {{ $kabkotName }} (misal: Hiperkes Perawat, Higene Perusahaan & Ergonomi, LOTO, Rescue, Permit)..." style="padding: 11px 16px 11px 38px; border-radius: 8px; border: 1px solid #cbd5e1; font-size: 0.9rem; width: 100%;">
                     </div>
                     <div style="display: flex; align-items: center; gap: 8px;">
                         <label style="font-size: 0.82rem; font-weight: 700; color: #475569; white-space: nowrap;">Tampilkan:</label>
@@ -262,7 +262,7 @@
                 <div style="text-align: center; padding: 48px 20px; background: #f8fafc; border-radius: 12px; border: 1px dashed #cbd5e1;">
                     <i class="bi bi-search" style="font-size: 2.2rem; color: #94a3b8; display: block; margin-bottom: 10px;"></i>
                     <h4 style="font-size: 1rem; font-weight: 700; color: #334155;">Tidak ada modul yang cocok dengan kata kunci</h4>
-                    <p style="font-size: 0.84rem; color: #64748b; margin-top: 4px;">Coba gunakan kata kunci lain seperti: Hiperkes Perawat, Full Body Harness & Lanyard, LOTO, Izin Masuk, atau Penyelamat.</p>
+                    <p style="font-size: 0.84rem; color: #64748b; margin-top: 4px;">Coba gunakan kata kunci lain seperti: Hiperkes Perawat, Higene Perusahaan & Ergonomi, LOTO, Izin Masuk, atau Penyelamat.</p>
                 </div>
             `;
             paginationNav.innerHTML = '';

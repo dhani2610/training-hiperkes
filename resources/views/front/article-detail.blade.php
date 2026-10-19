@@ -144,7 +144,7 @@
                         </a>
 
                         <div style="font-size: 0.82rem; color: #64748b; line-height: 1.6; margin-bottom: 20px;">
-                            Layanan konsultasi resmi Training Hiperkes Perawat (Bangunan Tinggi / Ketinggian) seluruh wilayah Indonesia.
+                            Layanan konsultasi resmi Training Hiperkes Perawat (Higene Perusahaan & Kesehatan Kerja) seluruh wilayah Indonesia.
                         </div>
 
                         <!-- 2 Program Resmi Links -->

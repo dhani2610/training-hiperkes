@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
-@section('title', 'Artikel & Panduan Teknis Training Hiperkes Perawat (Bangunan Tinggi / Ketinggian)')
-@section('meta_description', 'Kumpulan artikel dan panduan teknis keselamatan kerja ruang terbatas, prosedur entry permit, pengoperasian Full Body Harness EN 361, Lanyard EN 355, 100% Tie-Off, dan evakuasi darurat.')
+@section('title', 'Artikel & Panduan Teknis Training Hiperkes Perawat (Higene Perusahaan & Kesehatan Kerja)')
+@section('meta_description', 'Kumpulan artikel dan panduan teknis keselamatan dan kesehatan kerja, regulasi Hiperkes Permenaker 01/1979, ergonomi, pencegahan PAK, dan akreditasi SKP PPNI.')
 
 @section('content')
 
@@ -143,7 +143,7 @@
 
                     <div>
                         <label style="font-size: 0.82rem; font-weight: 700; color: #334155; margin-bottom: 6px; display: block;">Cari Topik Artikel:</label>
-                        <input type="text" id="articleLiveSearch" class="form-control" placeholder="Ketik kata kunci (Gas, Full Body Harness & Lanyard, Permit)..." style="padding: 10px 14px; border-radius: 8px; border: 1px solid #cbd5e1; font-size: 0.88rem; width: 100%;">
+                        <input type="text" id="articleLiveSearch" class="form-control" placeholder="Ketik kata kunci (Gas, Higene Perusahaan & Ergonomi, Permit)..." style="padding: 10px 14px; border-radius: 8px; border: 1px solid #cbd5e1; font-size: 0.88rem; width: 100%;">
                     </div>
                 </div>
 

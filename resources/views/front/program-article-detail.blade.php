@@ -1,6 +1,6 @@
 @extends('layouts.front')
 
-@section('title', $article->title . ' | Sertifikasi K3 Ruang Terbatas')
+@section('title', $article->title . ' | Sertifikasi Hiperkes Kemnaker RI')
 @section('meta_description', Str::limit($article->excerpt, 160))
 
 @section('content')
@@ -31,7 +31,7 @@
 
             <div style="display: flex; gap: 10px; align-items: center; margin-bottom: 14px; flex-wrap: wrap;">
                 <span class="hero-badge" style="margin-bottom: 0;">
-                    <i class="bi bi-tag-fill"></i> {{ $program['level_name'] ?? 'K3 Ruang Terbatas' }}
+                    <i class="bi bi-tag-fill"></i> {{ $program['level_name'] ?? 'Hiperkes Perawat' }}
                 </span>
                 <span class="hero-badge" style="margin-bottom: 0; background: rgba(52, 211, 153, 0.2); border-color: #34d399; color: #a7f3d0;">
                     <i class="bi bi-geo-alt-fill"></i> {{ $regionName }}
@@ -172,7 +172,7 @@
                         </a>
 
                         <div style="font-size: 0.82rem; color: #64748b; line-height: 1.6; margin-bottom: 20px;">
-                            Layanan konsultasi resmi K3 Ruang Terbatas untuk wilayah <strong>{{ $regionName }}</strong>.
+                            Layanan konsultasi resmi Hiperkes Perawat untuk wilayah <strong>{{ $regionName }}</strong>.
                         </div>
 
                         <!-- Modul Terkait di Wilayah Ini -->
