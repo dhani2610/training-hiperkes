@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'Training Hiperkes Perawat | Sertifikasi Resmi Kemnaker RI & PPNI SKP')</title>
     <meta name="description" content="@yield('meta_description', 'Pusat pelatihan & sertifikasi resmi Hiperkes Perawat / Petugas Medis, Manajemen Klinik Kerja, Surveilans Kesehatan Kerja, dan Ergonomi sesuai Permenaker No. 01/MEN/1979 & PPNI.')">
+    <meta name="google-site-verification" content="8ntv3aKgOWTwIjb5p9jl30OrITWiTf63QMZDILMxO8Q" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DDMXQHLMDW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DDMXQHLMDW');
+    </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
